@@ -1,0 +1,49 @@
+form {
+    margin-top: 80px;
+    align-items: center;
+    align-content: center;
+}
+
+table {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 12px rgb(0, 123, 255);
+    padding: 30px 40px;
+    border: none;
+}
+
+td {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 220px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus {
+    border: 1.5px solid rgb(0, 123, 255);
+    outline: none;
+}
+
+button[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 5s;
+}
+
+button[type="submit"]:hover {
+    background: #0056b3;
+}
